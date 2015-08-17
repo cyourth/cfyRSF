@@ -1,0 +1,9 @@
+Package: cfyRSF
+Title: General Statistics for Population and Sample Sets
+Version: 0.0.9
+Authors@R: person("Clinton", "Yourth", email = "clinton@yourthTechnologies.com", role = c("aut", "cre"))
+Description: Handles general statistic for population and sample sets.
+Depends: R (>= 3.2.1)
+License: GPL-2
+URL: http://ggplot2.org, https://github.com/hadley/ggplot2
+LazyData: true
