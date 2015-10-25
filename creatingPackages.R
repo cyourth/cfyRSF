@@ -20,6 +20,7 @@ library("roxygen2")
 #    - update function documentation --> https://github.com/klutometis/roxygen#roxygen2
 
 # step 3: process documentation
+getwd()
 document()
 
 # step 4: restart R (ctrl-shift-f10)

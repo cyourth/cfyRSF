@@ -3,7 +3,9 @@ Title: General Statistics for Population and Sample Sets
 Version: 0.0.9
 Authors@R: person("Clinton", "Yourth", email = "clinton@yourthTechnologies.com", role = c("aut", "cre"))
 Description: Handles general statistic for population and sample sets.
-Depends: R (>= 3.2.1)
+Depends:
+    R (>= 3.2.1)
 License: GPL-2
 URL: http://www.yourthTechnologies.com
 LazyData: true
+RoxygenNote: 4.1.1.9001
