@@ -3,6 +3,8 @@
 
 # http://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch
 
+# ------------------------------------------------------------------------
+
 # example of docs
 library(ggplot2)
 ?ggplot2
@@ -44,10 +46,10 @@ sample.covar
 #    - github tutorial --> http://kbroman.org/github_tutorial/
 #    - github example --> https://github.com/kbroman/broman
 #    - project templates --> http://projecttemplate.net/index.html
-install_github('<repo_name>','<github_username>')
-install_github('cfyRSF', 'cyourth')
+install_github('<github_username>/<repo_name>')
+install_github('cyourth/cfyRSF')
 
-# -------------------------------------------------------------------------------
+# ------------------------------------------------------------------------
 
 setwd("./cfyRSF")
 document()
@@ -59,6 +61,7 @@ library("roxygen2")
 setwd("~/projects/r_programs/cfyRSF")
 install("cfyRSF")
 library(cfyRSF)
+?cfyRSF
 
 ?pop.sd
 ?pop.var
